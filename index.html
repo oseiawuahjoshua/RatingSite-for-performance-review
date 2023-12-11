@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+    <title>interactive rating component</title>
+</head>
+<body>
+    <section class="section-1">
+        <div class="container">
+        <header role="banner">
+            <img src="icon-star.svg" alt="logoofthecompany" class="logo">
+        </header>
+
+        <main role="main">
+            <div class="mainmessage">
+                <h1>How did we do?</h1>
+                <p> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+            </div>
+
+            <div class="ratings">
+                <div class="toggle-container">
+                    <form >
+                        <input type="radio" id="toggle" class="toggle-input">
+                        <label for="toggle" class="toggle-label"> 1</label>
+    
+                        <input type="radio" id="toggle" class="toggle-input">
+                        <label for="toggle" class="toggle-label"> 2</label>
+    
+                        <input type="radio" id="toggle" class="toggle-input">
+                        <label for="toggle" class="toggle-label"> 3</label>
+    
+                        <input type="radio" id="toggle" class="toggle-input">
+                        <label for="toggle" class="toggle-label"> 4</label>
+    
+                        <input type="radio" id="toggle" class="toggle-input">
+                        <label for="toggle" class="toggle-label"> 5</label>
+
+                    </form>
+                
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </main>
+
+    </div>
+</section>
+
+<section class="section-2 hidden">
+    <div class="container">
+        <header class="header" role="banner of the thankyou page">
+            <img src="thankyou.jpg" alt="a dog with a thank you card" class="thankyou">
+        </header>
+
+        <main role="main section">
+            <div class="finalrate">
+                <p></p>
+            </div>
+            <div class="thankyougreetings">
+                <h1>Thank you!</h1>
+                <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch! </p>
+            </div>
+
+
+            <picture>
+                <source media="(min-width:800px)" srcset="">
+                <source srcset="">
+            </picture>
+        </main>
+    </div>
+
+</section>
+            
+
+<script src="index.js"></script>
+<script src="jquery-3.7.1.min.js"></script>
+</body>
+</html>
